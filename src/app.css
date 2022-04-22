@@ -1,0 +1,73 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 64px;
+  }
+  
+  .dataContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+  }
+
+  p {
+      font-size: 1.2em;
+      
+      font-family: 'Roboto Mono';
+  }
+  
+  .header {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+  }
+  
+  .bio {
+    text-align: center;
+    color: black;
+    margin-top: 16px;
+  }
+
+  
+ 
+  .btn-grad {background-image: linear-gradient(to right, #FDFC47 0%, #24FE41  51%, #FDFC47  100%)}
+  .btn-grad {
+     cursor: pointer; 
+     margin: 13px;
+     padding: 10px 35px;
+     text-align: center;
+     font-family: 'Roboto Mono';
+     transition: 0.5s;
+     background-size: 200% auto;            
+     border-radius: 10px;
+     display: block;
+   }
+
+   .btn-grad:hover {
+     background-position: center; /* change the direction of the change here */
+     
+     text-decoration: none;
+   }
+  
+  
+
+  body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
